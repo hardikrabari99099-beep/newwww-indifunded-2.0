@@ -1,0 +1,325 @@
+{
+  "users": [
+    {
+      "id": "trader-seed-1",
+      "email": "rahul.chouhan@example.in",
+      "name": "Rahul Chouhan",
+      "phone": "+91 98201 44120",
+      "apk_username": "rahul.chouhan@example.in",
+      "apk_password": "RAHUL@1234",
+      "login_password": "RAHUL@1234",
+      "kyc": {
+        "full_name": "Rahul Chouhan",
+        "pan": "ABCDE1234F",
+        "status": "submitted",
+        "submitted_at": "2026-02-01T10:00:00+00:00"
+      },
+      "created_at": "2026-01-15T09:30:00+00:00"
+    },
+    {
+      "id": "trader-seed-2",
+      "email": "priya.sharma@example.in",
+      "name": "Priya Sharma",
+      "phone": "+91 98765 21098",
+      "apk_username": "priya.sharma@example.in",
+      "apk_password": "PRIYA@1234",
+      "login_password": "PRIYA@1234",
+      "kyc": {},
+      "created_at": "2026-01-20T11:15:00+00:00"
+    },
+    {
+      "id": "869ea63c-c97b-41bc-a3be-d816e3a9760c",
+      "email": "growthloopp@gmail.com",
+      "name": "HARDIK RABARI",
+      "phone": "",
+      "apk_username": "growthloopp@gmail.com",
+      "apk_password": "HARDIK@1234",
+      "login_password": "svf ji e7vyw",
+      "kyc": {},
+      "created_at": "2026-11-20T06:19:11.159Z"
+    },
+    {
+      "id": "a2b72b45-3a4e-42ff-a921-c8157c0f8bf2",
+      "email": "growthlooopp@gmail.com",
+      "name": "HARDIK RABARI",
+      "phone": "",
+      "apk_username": "growthlooopp@gmail.com",
+      "apk_password": "HARDIK@1234",
+      "login_password": "br6gvv76v7hv ",
+      "kyc": {},
+      "created_at": "2026-11-20T06:40:20.090Z"
+    }
+  ],
+  "local_credentials": [
+    {
+      "id": "869ea63c-c97b-41bc-a3be-d816e3a9760c",
+      "email": "growthloopp@gmail.com",
+      "password_hash": "bb8c2ca82a569cdedf1efc6aefe754c5:0c0c3a57d520c5626abb540ed44496039fcdf437bb33dc45bbc67ad8730ab1b7bc098d2080078a5f1d4ce24fd5613c69b6df8d4c02c43699a0771ec3aa5a48c9",
+      "created_at": "2026-11-20T06:19:11.158Z"
+    },
+    {
+      "id": "a2b72b45-3a4e-42ff-a921-c8157c0f8bf2",
+      "email": "growthlooopp@gmail.com",
+      "password_hash": "52618134f65eaa7159b565aedc6f614b:d581e3f6d1ed06a04e5f78dd6814f4a4e2e2e8f65a4c2a06da96d03f140f58ab67c8a0634fec76a69528689e0e676e328b87fe5f16844f52c205854d0c95f614",
+      "created_at": "2026-11-20T06:40:20.089Z"
+    }
+  ],
+  "certificates": [
+    {
+      "id": "cert-seed",
+      "certificate_code": "IF-CERT-1001",
+      "payout_id": "PO-1001",
+      "image_url": "/certificates/cert-1.png",
+      "trader_name": "Vivek Raut",
+      "amount": 6700,
+      "plan": "Starter",
+      "account_size": 100000,
+      "payout_date": "09/05/2026",
+      "order": 1,
+      "visible": true,
+      "created_at": "2026-01-01T00:00:00+00:00"
+    }
+  ],
+  "plans": [
+    {
+      "id": "plan-starter",
+      "name": "Starter",
+      "account_size": 100000,
+      "challenge_fee": 4999,
+      "original_price": null,
+      "profit_target_points": 550,
+      "profit_share": 70,
+      "max_loss_limit": 20,
+      "min_trading_days": 8,
+      "total_trading_days": 10,
+      "trades_per_day": 3,
+      "description": "Perfect for beginners ready to prove their trading skills and take the first step toward funded capital.",
+      "features": [
+        "₹1,00,000 Funded Account",
+        "70% Profit Split",
+        "Nifty & BankNifty Trading",
+        "No segment restriction",
+        "Zerodha, Dhan & Angel One",
+        "No hidden rules"
+      ],
+      "popular": false,
+      "order": 1,
+      "created_at": "2026-01-01T00:00:00+00:00"
+    },
+    {
+      "id": "plan-standard",
+      "name": "Standard",
+      "account_size": 200000,
+      "challenge_fee": 7999,
+      "original_price": null,
+      "profit_target_points": 650,
+      "profit_share": 70,
+      "max_loss_limit": 20,
+      "min_trading_days": 10,
+      "total_trading_days": 12,
+      "trades_per_day": 3,
+      "description": "Built for disciplined traders looking to turn consistent strategies into real funded opportunities.",
+      "features": [
+        "₹2,00,000 Funded Account",
+        "70% Profit Split",
+        "No segment restriction",
+        "Scale Up to ₹5,00,000",
+        "Zerodha, Dhan & Angel One",
+        "No hidden rules"
+      ],
+      "popular": false,
+      "order": 2,
+      "created_at": "2026-01-01T00:00:00+00:00"
+    },
+    {
+      "id": "plan-pro",
+      "name": "Pro",
+      "account_size": 300000,
+      "challenge_fee": 14999,
+      "original_price": 18999,
+      "profit_target_points": 750,
+      "profit_share": 70,
+      "max_loss_limit": 20,
+      "min_trading_days": 10,
+      "total_trading_days": 12,
+      "trades_per_day": 3,
+      "description": "Designed for serious traders seeking bigger capital, higher profit potential, and greater flexibility.",
+      "features": [
+        "Account Size ₹3,00,000",
+        "70% Profit Split",
+        "Scale Up to ₹5,00,000",
+        "No segment restriction",
+        "15 Trading Days",
+        "No hidden rules"
+      ],
+      "popular": true,
+      "order": 3,
+      "created_at": "2026-01-01T00:00:00+00:00"
+    },
+    {
+      "id": "plan-elite",
+      "name": "Elite",
+      "account_size": 500000,
+      "challenge_fee": 14999,
+      "original_price": null,
+      "profit_target_points": 900,
+      "profit_share": 70,
+      "max_loss_limit": 20,
+      "min_trading_days": 10,
+      "total_trading_days": 15,
+      "trades_per_day": 3,
+      "description": "Our most popular plan. Ideal for disciplined traders ready to scale.",
+      "features": [
+        "Account Size ₹5,00,000",
+        "70% Profit Split",
+        "No segment restriction",
+        "Fund scales to ₹7L",
+        "Zerodha/Dhan/Angel One",
+        "No hidden rules"
+      ],
+      "popular": false,
+      "order": 4,
+      "created_at": "2026-01-01T00:00:00+00:00"
+    },
+    {
+      "id": "plan-master",
+      "name": "Master",
+      "account_size": 700000,
+      "challenge_fee": 19999,
+      "original_price": null,
+      "profit_target_points": 1000,
+      "profit_share": 70,
+      "max_loss_limit": 20,
+      "min_trading_days": 12,
+      "total_trading_days": 15,
+      "trades_per_day": 4,
+      "description": "Built for pros. Maximum capital, top profit share, full market access.",
+      "features": [
+        "Account Size ₹7,00,000",
+        "70% Profit Split",
+        "No segment restriction",
+        "24hr Payouts",
+        "No hidden rules"
+      ],
+      "popular": false,
+      "order": 5,
+      "created_at": "2026-01-01T00:00:00+00:00"
+    }
+  ],
+  "blogs": [
+    {
+      "id": "blog-1",
+      "slug": "turn-small-investment-into-profitable-trading",
+      "title": "Unlock Your Potential: Turn a Small Investment into a Profitable Trading Venture",
+      "excerpt": "Trading can seem intimidating, especially when considering the challenge fees for a funded account. But with the right approach, a small investment goes a long way.",
+      "content": "Trading can seem intimidating, especially when considering the challenge fees for a funded account. However, it's important to understand the long-term upside. At IndiFunded, a one-time challenge fee unlocks access to accounts of up to ₹5,00,000 with 70% profit sharing. Start small, prove your discipline, and scale systematically.\n\n**Why it works**\n- Capital efficiency: you keep 70% of profits without risking your own capital beyond the challenge fee.\n- Risk discipline: hard drawdown rules train you to protect capital.\n- Scaling: passing traders see account increments every 2 months up to ₹5L.",
+      "cover_image": "https://images.unsplash.com/photo-1642790595397-7047dc98fa72?w=1200",
+      "author": "IndiFunded Team",
+      "published": true,
+      "created_at": "2026-01-03T00:00:00+00:00"
+    },
+    {
+      "id": "blog-2",
+      "slug": "rise-of-indifunded-indian-trading",
+      "title": "Uncovering the Rise of IndiFunded: A New Player in the Indian Trading Scene",
+      "excerpt": "As India's financial sector expands, traders need platforms built for NSE/BSE. Here's why IndiFunded is changing the game.",
+      "content": "In today's fast-paced trading landscape, the right platform can make all the difference for traders. As India's financial sector expands, IndiFunded has emerged as India's 1st prop trading firm tailored to NSE stocks, BankNifty, Nifty50 and F&O segments.\n\n**What sets us apart**\n- Rupee-denominated accounts\n- Payouts within 24 hours\n- Integration with Zerodha, Angel One, Dhan, Upstox\n- A community of Indian traders",
+      "cover_image": "https://images.unsplash.com/photo-1559526324-4b87b5e36e44?w=1200",
+      "author": "IndiFunded Team",
+      "published": true,
+      "created_at": "2026-01-02T00:00:00+00:00"
+    },
+    {
+      "id": "blog-3",
+      "slug": "strategies-for-maximizing-profits",
+      "title": "Strategies for Maximizing Profits with Funded Trading Accounts",
+      "excerpt": "Fresh methods to boost profits while keeping risk tight. A playbook from IndiFunded's top traders.",
+      "content": "Traders constantly seek methods to boost profits while keeping risk tight. Here are three proven strategies from our funded traders:\n\n1. **Plan your trading day**: pre-market prep beats reactive trading.\n2. **Respect the loss cap**: 20% max loss isn't a target, it's a guardrail — stay well under it.\n3. **Let winners run**: 70% profit accuracy requires fewer losers, not more winners.",
+      "cover_image": "https://images.unsplash.com/photo-1611974789855-9c2a0a7236a3?w=1200",
+      "author": "IndiFunded Team",
+      "published": true,
+      "created_at": "2026-01-01T00:00:00+00:00"
+    }
+  ],
+  "coupons": [
+    {
+      "id": "coupon-welcome10",
+      "code": "WELCOME10",
+      "discount_percent": 10,
+      "active": true,
+      "description": "10% off — welcome to IndiFunded",
+      "max_uses": null,
+      "used_count": 0,
+      "expires_at": null,
+      "created_at": "2026-01-01T00:00:00+00:00"
+    },
+    {
+      "id": "coupon-launch20",
+      "code": "LAUNCH20",
+      "discount_percent": 20,
+      "active": true,
+      "description": "20% launch discount",
+      "max_uses": 500,
+      "used_count": 0,
+      "expires_at": null,
+      "created_at": "2026-01-01T00:00:00+00:00"
+    },
+    {
+      "id": "coupon-trader5",
+      "code": "TRADER5",
+      "discount_percent": 5,
+      "active": true,
+      "description": "5% off for community traders",
+      "max_uses": null,
+      "used_count": 0,
+      "expires_at": null,
+      "created_at": "2026-01-01T00:00:00+00:00"
+    }
+  ],
+  "weekly_payouts": [],
+  "leaderboard": [],
+  "trader_accounts": [
+    {
+      "id": "acct-seed-1",
+      "account_number": "IF-FD-1001",
+      "user_id": "trader-seed-1",
+      "user_email": "rahul.chouhan@example.in",
+      "plan_name": "Pro",
+      "account_type": "Funded",
+      "starting_capital": 300000,
+      "balance": 318450,
+      "available_margin": 318450,
+      "used_margin": 0,
+      "realized_pnl": 18450,
+      "profit_split": 70,
+      "max_loss_limit": 20,
+      "trades_per_day": 5,
+      "status": "Funded",
+      "note": "Seeded funded account",
+      "created_at": "2026-01-16T10:00:00+00:00",
+      "updated_at": "2026-01-16T10:00:00+00:00"
+    },
+    {
+      "id": "acct-seed-2",
+      "account_number": "IF-CH-1002",
+      "user_id": "trader-seed-2",
+      "user_email": "priya.sharma@example.in",
+      "plan_name": "Standard",
+      "account_type": "Challenge",
+      "starting_capital": 200000,
+      "balance": 200000,
+      "available_margin": 200000,
+      "used_margin": 0,
+      "realized_pnl": 0,
+      "profit_split": 70,
+      "max_loss_limit": 20,
+      "trades_per_day": 3,
+      "status": "Active",
+      "note": "Seeded challenge account",
+      "created_at": "2026-01-21T09:30:00+00:00",
+      "updated_at": "2026-01-21T09:30:00+00:00"
+    }
+  ],
+  "system_meta": [],
+  "settings": []
+}
